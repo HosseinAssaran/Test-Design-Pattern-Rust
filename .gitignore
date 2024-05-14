@@ -1,0 +1,18 @@
+# Build artifacts
+target/
+
+# IDE and editor files
+*.swp
+*.swo
+*.iml
+.vscode/
+.idea/
+.project
+*.exe
+*.pdb
+
+# Rust doc test lock files
+tests/rustdoc-gui/src/**/*.lock
+
+# Dependency lock file (optional, see note below)
+Cargo.lock
